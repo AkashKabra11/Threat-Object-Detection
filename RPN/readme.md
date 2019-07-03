@@ -1,6 +1,6 @@
-==================================================================================================================================================================
-TRAINING AND TESTING RPN
-==================================================================================================================================================================
+============================================================================================================================
+						TRAINING AND TESTING RPN
+============================================================================================================================
 
 Move to RPN folder now. 
 Folder should have: 
@@ -34,7 +34,7 @@ POST-CONDITION :
 "ValueError: Shape must be rank 1 but is rank 0 for 'bn_conv1/Reshape_4' (op: 'Reshape') with input shapes: [1,1,1,64], []."
 We found that this error is some backend issue in keras 2.2.4
 You need to move to 'lib/python3.6/site-packages/keras/backend/tensorflow_backend.py' and update the batch_normalization method in line 1876
-
+This is the link for the same. 
 def batch_normalization(x, mean, var, beta, gamma, axis=-1, epsilon=1e-3):
     """Applies batch normalization on x given mean, var, beta and gamma.
 
