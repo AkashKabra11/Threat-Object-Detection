@@ -10,7 +10,7 @@ Folder should have:
 4. keras_frcnn folder with multiple py scripts
 5. train_images folder made post GANs code
 6. annotate.txt file made post GANs code
-7. resnet50_weights_tf_dim_ordering_tf_kernels.h5 downloaded as per he instructions given below. 
+7. resnet50_weights_tf_dim_ordering_tf_kernels.h5 downloaded as per the instructions given below. 
 
 PRE-CONDITION: <br />
 1. You need to provide the testing images in the "test_images" folder now. 
