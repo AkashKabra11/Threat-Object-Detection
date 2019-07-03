@@ -1,6 +1,6 @@
-===============================================================================================================================================================
-TRAINING AND TESTING CLASSIFIER
-===============================================================================================================================================================
+******************************************
+				TRAINING AND TESTING CLASSIFIER
+******************************************
 Folder should have: 
 1. Data folder
 2. Train_top_layer.py
@@ -12,13 +12,13 @@ Folder should have:
 PRE-CONDITION: 
 - Ensure that data has this structure: 
 data
---train
-	--knife
-	--scissor
---validation
-	--knife
-	--scissor
---test	
+|--train
+|   |------knife
+|   |------scissor
+|--validation
+|   |------knife
+|   |------scissor
+|--test	
  
 - Put the 224*224 images of knife and scissor in the given fields. 
 
@@ -40,6 +40,6 @@ POST-CONDITION: "class_model.h5" & "class_weights.h5" should be made in the same
 
 4. To test the classifier (Optional, not necessary for flow of the model): 
 Run the script: 
-Python testing.py
+python testing.py
 
 
