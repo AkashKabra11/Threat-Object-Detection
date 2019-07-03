@@ -10,7 +10,8 @@ Folder should have:
 6. vgg weights which would be downloaded as per instructions given below. 
 
 PRE-CONDITION: 
-- Ensure that data has this structure: 
+- Ensure that data has this structure
+
 data
 |--train
 |   |------knife
